@@ -1,5 +1,8 @@
-# Linux File Permissions Management Portfolio Project
+# File permissions in Linux
 
 ## Project Description
 
-In this project, you will create a portfolio document to showcase your skills in managing file permissions using Linux commands. You will review and modify file permissions in a given scenario to ensure appropriate authorization and system security. The document will demonstrate your expertise in handling file permissions and can be added to your cybersecurity portfolio to share with prospective employers or recruiters. This exercise involves examining existing permissions, making necessary updates, and documenting the commands and steps used.
+The research team at my organization needs to update the file permissions for certain files and
+directories within the projects directory. The permissions do not currently reflect the level of
+authorization that should be given. Checking and updating these permissions will help keep
+their system secure. To complete this task, I performed the following tasks:
