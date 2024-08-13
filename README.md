@@ -29,7 +29,8 @@ The organization determined that others shouldn't have write access to any of th
 
 The following code demonstrates how I used Linux commands to do this:
 
-https://drive.google.com/file/d/177dSQuRrP8lQ0b7DMVNDDWpNmoIjoDzZ/view?usp=drive_link
+![image2](https://github.com/user-attachments/assets/8de15fa2-69f3-43cb-82a5-7b6ff81627e9)
+
 
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from `other` for the `project_k.txt` file. After this, I used `ls -la` to review the updates I made.
 
@@ -39,7 +40,7 @@ The research team at my organization recently archived `project_x.txt`. They do 
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
-https://drive.google.com/file/d/1LQy6JZ9o59cp9zjcsjANK1XTD4_B9w68/view?usp=drive_link
+![image3](https://github.com/user-attachments/assets/8b8911d8-9661-4ca8-ab18-b3bd2b1707c6)
 
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know `.project_x.txt` is a hidden file because it starts with a period (`.`). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with `u-w`. Then, I removed write permissions from the group with `g-w`, and added read permissions to the group with `g+r`.
 
@@ -49,7 +50,8 @@ My organization only wants the `researcher2` user to have access to the `drafts`
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
-https://drive.google.com/file/d/1bCIL_Yro9hV1TBQpLtGdftbWhlDnwbKs/view?usp=drive_link
+![image4](https://github.com/user-attachments/assets/4f14c24b-8784-4d65-b336-788a79082ab3)
+
 
 The output here displays the permission listing for several files and directories. Line 1 indicates the current directory (`projects`), and line 2 indicates the parent directory (`home`). Line 3 indicates a regular file titled `.project_x.txt`. Line 4 is the directory (`drafts`) with restricted permissions, where only `researcher2` has execute permissions. It was previously determined that the group had execute permissions, so I used the `chmod` command to remove them. The `researcher2` user already had execute permissions, so they did not need to be added.
 
